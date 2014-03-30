@@ -1,0 +1,44 @@
+/*------------------------------------*\
+  #AUTO COMPLETE
+\*------------------------------------*/
+
+.autoComplete {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+
+
+.autoComplete__input {
+
+}
+
+
+
+
+
+.autoComplete__list {
+  position: absolute;
+  top: 100%;
+  z-index: 5000;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.autoComplete__choice {
+  padding: 1ex;
+  border-bottom: 1px dotted gray;
+}
+
+
+
+
+
+.autoComplete__choice:last-child {
+  border-bottom: none;
+}
